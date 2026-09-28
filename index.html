@@ -148,17 +148,28 @@
     }
     
     .otko-logo {
-      width: 58px;
-      height: 58px;
-      object-fit: contain;
-      border-radius; 50%;
-      flex-shrink: 0;
+      width: 52px !important;
+      height: 52px !important;
+      max-width: 52px !imortant;
+      max-height: 52px !imortant;
+      object-fit: cover;
+      display: block;
+      flex; 0 0 52px;
+      border-radius: 50%;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     @media (max-width; 760px) {
       .okto-logo {
-        width; 44px;
-        height; 44px;
+        width; 42px !important;
+        height; 42px !imortant;
+        max-width: 42px !imortant;
+        max-height: 42px !important;
+        flex-basis: 42px;
       }
     }
   </style>
