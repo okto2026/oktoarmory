@@ -1,9 +1,0 @@
-{
-  "name": "OKTO Armory",
-  "short_name": "OKTO",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#08090b",
-  "theme_color": "#0a0b0d",
-  "icons": []
-}
